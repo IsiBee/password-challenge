@@ -79,8 +79,8 @@ function getRandomInt() {
 
 // Gets a random lowercase letter between a and z.
 function getRandomLetter() {
-  // Selects a random integer between 0 and 26.
-  var randomize = Math.floor(Math.random() * 27);
+  // Selects a random integer between 0 and 25.
+  var randomize = Math.floor(Math.random() * 26);
   // Converts a number into a character between a and z.
   var randomLetter = String.fromCharCode(97 + randomize);
   // Returns the value of the random letter.
